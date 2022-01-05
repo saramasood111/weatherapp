@@ -39,7 +39,7 @@ class _myappState extends State<myapp> {
     print(weatherdata);
 
     // double temp = weatherdata['main']['temp'];
-    // int condition = weatherdata['weather'][0]['id'];
+    // int condition =  weatherdata['weather'][0]['id'];
     // String city = weatherdata['name'];
     Navigator.push(context, MaterialPageRoute(builder: (context) {
       return LocationScreen(locationWeather: weatherdata);
